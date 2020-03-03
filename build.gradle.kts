@@ -15,7 +15,7 @@ dependencies {
 sourceSets["main"].java.srcDir("src/main/java")
 
 configure<JavaPluginConvention> {
-    sourceCompatibility = org.gradle.api.JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_1_8
 }
 
 tasks {
