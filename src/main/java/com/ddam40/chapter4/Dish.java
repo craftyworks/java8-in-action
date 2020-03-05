@@ -51,4 +51,9 @@ public class Dish {
             new Dish("prawns", false, 300, Type.FISH),
             new Dish("salmon", false, 450, Type.FISH)
     );
+
+    @Override
+    public String toString() {
+        return getName();
+    }
 }
