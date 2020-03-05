@@ -9,6 +9,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("org.apache.commons", "commons-lang3", "3.9")
     testImplementation("junit:junit:4.12")
 }
 
